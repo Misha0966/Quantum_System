@@ -75,7 +75,7 @@
 
 Предварительные требования:
 
-Julia версии 1.6 или выше
+Julia версии 1.6 или выше, а так же следующие пакеты:
 Flux.jl для компонентов машинного обучения
 Plots.jl для визуализации данных
 LinearAlgebra, Random и Distributions для математических операций
@@ -86,23 +86,24 @@ Dates и Base.Threads для оптимизации производительн
 Клонируйте репозиторий:
 
 bash
-Копировать код
+
 git clone https://github.com/your-username/quantum-reactor.git
 cd quantum-reactor
 
 Установите зависимости:
 
 julia
-Копировать код
+
 using Pkg
 Pkg.instantiate()
 
 Запустите эксперименты с квантовым реактором:
 
 julia
-Копировать код
+
 include("quantum_reactor.jl")
 run_experiments(100, 5, 0.4, 0.2, 45, 5, 100.0, 2^50.0, 2^51.0, "output", 0.1, 0.05)
+
 Просмотр результатов: Результаты будут сохранены в директориях output/success и output/failure, включая детализированные логи и визуализацию эволюции квантовой системы.
 
 Ссылки:
