@@ -103,6 +103,7 @@ Pkg.instantiate()
 julia
 
 include("quantum_reactor.jl")
+
 run_experiments(100, 5, 0.4, 0.2, 45, 5, 100.0, 2^50.0, 2^51.0, "output", 0.1, 0.05)
 
 Просмотр результатов: Результаты будут сохранены в директориях output/success и output/failure, включая детализированные логи и визуализацию эволюции квантовой системы.
