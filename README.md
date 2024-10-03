@@ -95,6 +95,7 @@ cd quantum-reactor
 julia
 
 using Pkg
+
 Pkg.instantiate()
 
 Запустите эксперименты с квантовым реактором:
