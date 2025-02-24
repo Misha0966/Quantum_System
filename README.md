@@ -96,6 +96,7 @@ Dates и Base.Threads для оптимизации производительн
 bash
 
 git clone https://github.com/your-username/quantum-reactor.git
+
 cd quantum-reactor
 
 Установите зависимости ( открыв при этом Julia ) :
