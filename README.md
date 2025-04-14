@@ -17,14 +17,23 @@ quantum_results_YYYY_MM_DD_HH_MM_SS.json — Результаты симуляц
 Для работы с проектом вам необходимо установить несколько Julia пакетов. Выполните следующие команды в вашем REPL:
 
 using Pkg
+
 Pkg.add("LinearAlgebra")
+
 Pkg.add("Distributions")
+
 Pkg.add("JSON")
+
 Pkg.add("Dates")
+
 Pkg.add("DataFrames")
+
 Pkg.add("Logging")
+
 Pkg.add("SparseArrays")
+
 Pkg.add("Flux")
+
 Pkg.add("BlackBoxOptim")
 
 # 3. Описание ключевых частей кода
@@ -105,7 +114,7 @@ normalization_factor — коэффициент нормализации для 
 
 Для запуска программы, достаточно просто выполнить main() в Julia:
 
-include("main.jl")
+include("quantum_experiment_simulator.jl")
 main()
 
 После выполнения программы, результаты будут сохранены в файл с именем, содержащим метку времени, в формате JSON.
