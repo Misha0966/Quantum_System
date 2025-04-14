@@ -158,3 +158,7 @@ Pkg.add(["Flux", "Plots", "Random", "Distributions", "Dates"])
 Гудфеллоу, И., Бенджио, Й., & Курвилль, А. (2016). Глубокое обучение. MIT Press.
 
 Документация JuliaLang: https://docs.julialang.org/
+
+Лицензия.
+
+Данный проект распространяется под лицензией Apache License Version 2.0, с более подробной информацией можно ознакомиться в разделе LICENSE.
